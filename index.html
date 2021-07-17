@@ -78,6 +78,12 @@
                 message: $('#message').val()
             }
 
+            if (!name)
+            {
+                alert("Are you trying to crash our database!?");
+                return;
+            }
+
             firebase.database().ref('test/'+data.name).set(data, function(error)
             {
                 if (error)
