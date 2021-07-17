@@ -4,6 +4,10 @@
     top: 500px;
   }
   
+.error{
+  color:red;
+}
+
 .trolltek{
 	position: absolute;
 	left: 300px;
